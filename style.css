@@ -1,0 +1,240 @@
+body {
+    font: 16px arial;
+    margin: 0;
+    padding: 0;
+    background: #ecf0f3;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0px auto 0;
+    /*wraper size*/
+    background-color: #f1f0f5;
+}
+
+#header {
+    text-align: center;
+    background-color: #1abc9c;
+}
+
+#logo {
+    text-align: center;
+    border-radius: 50%;
+}
+
+#email {
+    text-align: left;
+    display: inline-block;
+}
+
+#web {
+    text-align: center;
+    display: inline-block;
+}
+
+#tel {
+    text-align: right;
+    display: inline-block;
+}
+
+#add {
+    color: #e03038;
+}
+
+#header h1 {
+    color: #321390;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+}
+
+#menu {
+    background-color: #333;
+    text-align: center;
+}
+
+#menu ul {
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 10px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+#menu ul li a:hover {
+    background-color: rgba(224, 220, 220, 0.748);
+}
+
+#h2 {
+    text-align: center;
+}
+
+#main-content {
+    padding: 25px;
+    min-height: 400opx;
+    text-align: left;
+}
+
+#main-content h2 {
+    margin: 0 0 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+#main-content table {
+    width: 100%;
+    /*table width */
+    background-color: #eee7e9;
+    /*table background */
+    margin: 0 0 100%;
+}
+
+#main-content table th {
+    /*table heading edit */
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+}
+
+#main-content table td {
+    /*table heading edit */
+    background-color: #333;
+    text-transform: uppercase;
+}
+
+#main-content table th:last-child {
+    width: 130px;
+}
+
+#main-content table td {
+    background-color: #fff;
+}
+
+#main-content table td a {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    color: #fff;
+    background-color: #e67e22;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#main-content table td a:nth-child(2) {
+    background-color: #e74c3c;
+    margin: 0 0 0 5px;
+}
+
+#main-content .post-form {
+    width: 50%;
+    padding: 25px;
+    margin: 0 auto 10px;
+    background-color: #d6d5d5;
+    border-radius: 10px;
+}
+
+#main-content .post-form .form-group {
+    margin: 0px 0px 15px;
+}
+
+#main-content .post-form .form-group label {
+    width: 30%;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+}
+
+#main-content .post-form .form-group h6 {
+    font-weight: 600;
+    text-align: center;
+}
+
+#main-content .post-form .form-group input,
+#main-content .post-form .form-group select {
+    font-size: 16px;
+    width: 66%;
+    /*box size add secton*/
+    display: inline-block;
+    padding: 5px;
+    /*box size add section*/
+    margin: 0%;
+}
+
+#main-content .post-form .form-group select {
+    width: 68%;
+}
+
+#main-content .post-form .submit {
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 0 30%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#main-content .post-form .submit:hover {
+    box-shadow: 0 0 5px #901515;
+    /*submit button hover*/
+}
+
+#main-content .pagination {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#main-content .pagination li {
+    display: inline-block;
+}
+
+#main-content .pagination li a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1abc9c;
+    display: block;
+    margin: 0 5px 0 0;
+    transition: all 0.3s;
+}
+
+#main-content .pagination li a:hover {
+    background-color: #333;
+}
+
+#main-content h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#main-content h6 {
+    text-align: center;
+    margin-top: 10px;
+}
